@@ -41,4 +41,32 @@ export default [
     location: "Norway",
     openSpots: 3,
   },
+  {
+    id: 4,
+    title: "Group Mountain Biking",
+    description:
+      "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
+    price: 20,
+    coverImg: "picsmix.jpeg",
+    stats: {
+      rating: 3.5,
+      reviewCount: 5,
+    },
+    location: "France",
+    openSpots: 2,
+  },
+  {
+    id: 5,
+    title: "Business insider",
+    description:
+      "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
+    price: 20,
+    coverImg: "Business-insider.jpeg",
+    stats: {
+      rating: 4.8,
+      reviewCount: 5,
+    },
+    location: "Scotland",
+    openSpots: 2,
+  },
 ];
