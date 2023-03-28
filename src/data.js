@@ -53,7 +53,7 @@ export default [
       reviewCount: 5,
     },
     location: "France",
-    openSpots: 2,
+    openSpots: 0,
   },
   {
     id: 5,
@@ -67,6 +67,6 @@ export default [
       reviewCount: 5,
     },
     location: "Scotland",
-    openSpots: 2,
+    openSpots: 0,
   },
 ];

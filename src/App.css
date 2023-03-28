@@ -16,6 +16,7 @@ nav {
 
 .nav--logo {
   max-width: 100px;
+  height: 50px;
 }
 
 section {
@@ -38,4 +39,82 @@ section {
 
 .hero--text {
   margin-top: 0;
+  font-size: 20px;
+}
+/* card */
+
+.card--container {
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  padding: 13px;
+  width: 176px;
+  height: auto;
+  margin: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.Card--img {
+  width: 176px;
+  height: 235px;
+  display: block;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.card--info {
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  color: grey;
+}
+.Card--star {
+  font-size: 5px;
+  margin-right: 5px;
+}
+
+.Card--star img {
+  height: 10.5px;
+}
+
+.card--info {
+  font-size: 11.5px;
+}
+
+.card--price {
+  font-weight: bold;
+  color: black;
+}
+
+.card--info {
+  margin: 0;
+  line-height: 1.15;
+  letter-spacing: 0.2px;
+}
+
+.card--img--container {
+  position: relative;
+}
+
+.card--badge {
+  color: black;
+  background-color: lightgray;
+  border-radius: 2px;
+  padding: 2.5px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 13px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow-x: auto;
+  justify-content: space-around;
 }
