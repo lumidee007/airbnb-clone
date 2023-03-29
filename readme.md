@@ -1,5 +1,7 @@
 ## A simple static Airbnb clone
 
+![Airbnb  Clone](./public/images/project-logo.jpeg)
+
 This is a simple React project that demonstrates how to use function components to retrieve a mockdata and dynamically display it through the components. The mock data is imported into the App component and useState is use to set the initial state.
 
 ### Prerequisites
